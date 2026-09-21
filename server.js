@@ -7,8 +7,8 @@ app.use(cors());
 app.use(express.json());
 
 // Token de tu bot y tu Chat ID de Telegram
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || 'TU_TOKEN_DE_TELEGRAM';
-const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID || 'TU_CHAT_ID';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || '8665762438:AAFbEge-A9RioFs2hDEz1zgqVBFWYH43ksA';
+const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID || '6664386870';
 
 const bot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
